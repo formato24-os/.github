@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support guidance
+    url: https://github.com/formato24-os/.github/blob/main/SUPPORT.md
+    about: Find the right place for usage questions and community requests.
+  - name: Report a security vulnerability privately
+    url: https://github.com/formato24-os/.github/security/advisories/new
+    about: Use private reporting for vulnerabilities; never include them in a public issue.
+  - name: Code of Conduct and reporting
+    url: https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Read participation standards and the available reporting options.

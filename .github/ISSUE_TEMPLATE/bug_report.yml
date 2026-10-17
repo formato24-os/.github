@@ -1,0 +1,46 @@
+name: Bug report
+description: Report reproducible behavior that does not work as expected.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before reporting a bug. Use the affected project's repository whenever possible.
+        Do not post secrets or undisclosed vulnerabilities. Follow our [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md) for private reports.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include a minimal example or the affected page or resource.
+      placeholder: |
+        1. Start with...
+        2. Perform...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Include the version or commit and relevant OS, runtime, or browser. For documentation, provide the page URL.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context
+      description: Add sanitized logs, screenshots, or related issues if useful. Remove credentials and private data.

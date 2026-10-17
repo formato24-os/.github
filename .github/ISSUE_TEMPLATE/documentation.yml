@@ -1,0 +1,30 @@
+name: Documentation or resource improvement
+description: Improve a guide, correct a link, or suggest a developer resource.
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page, file, or resource
+      description: Link to the affected content or identify where the addition belongs.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs improvement?
+      description: Explain what is unclear, incorrect, missing, or useful to add.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested change
+      description: Include a proposed correction or an official resource link with a short reason for inclusion.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and context
+      description: Provide supporting references and note licensing or free-plan restrictions when relevant.

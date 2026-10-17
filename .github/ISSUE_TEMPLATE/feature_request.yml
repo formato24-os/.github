@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement to an existing project.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing proposals first. Explain the problem before suggesting an implementation.
+        For a new monthly project, use the project proposal form instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and audience
+      description: What problem are you trying to solve, and who encounters it?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the desired behavior and a concrete example.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Include existing options or workarounds, if any.
+  - type: textarea
+    id: context
+    attributes:
+      label: Scope and context
+      description: Note constraints, related issues, and any implementation or testing help you can offer.

@@ -1,0 +1,45 @@
+name: Project proposal
+description: Propose a new project or a candidate for the monthly project cycle.
+title: "[Project]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Organization-wide proposals belong in [community issues](https://github.com/formato24-os/.github/issues).
+        A proposal does not create a repository or commit the community to a release date.
+        See our [governance model](https://github.com/formato24-os/.github/blob/main/GOVERNANCE.md) for the selection process.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended users
+      description: Explain the need and who would benefit.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: Describe the smallest useful result and how someone would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope for one month
+      description: List essential work, exclusions, dependencies, and how success could be verified.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing alternatives
+      description: Link to relevant existing projects and explain what this proposal adds.
+    validations:
+      required: true
+  - type: textarea
+    id: maintenance
+    attributes:
+      label: Maintenance and participation
+      description: Describe likely ongoing work, needed skills, and whether you can help. A maintainer does not need to be appointed at proposal time.
+    validations:
+      required: true
