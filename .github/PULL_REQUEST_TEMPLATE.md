@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 ## Problem and outcome
 
 <!-- Explain the problem and what changes for users or contributors. -->

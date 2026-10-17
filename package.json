@@ -1,0 +1,25 @@
+{
+  "name": "@formato24-os/community",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "lint:markdown": "node scripts/lint-markdown.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/tests/*.test.mjs",
+    "check": "npm run lint:markdown && npm run validate && npm test",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "github-slugger": "2.0.0",
+    "markdown-it": "15.0.1",
+    "markdownlint": "0.41.1",
+    "yaml": "2.9.1"
+  },
+  "overrides": {
+    "katex": "0.18.2"
+  }
+}
