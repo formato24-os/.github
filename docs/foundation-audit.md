@@ -27,6 +27,6 @@ Actions were enabled for all actions at audit time, with no platform-enforced SH
 
 - An organization owner should review and apply the proposed [main branch ruleset](repository-security.md).
 - A dedicated private community contact for conduct concerns remains undesignated, as the existing Code of Conduct states. Its documented GitHub reporting routes are retained rather than inventing an address.
-- The repository plan should identify Awesome Formato24 as published only after its repository has been created and verified. FreeStack, CLI tools, and starter kits remain proposals.
+- FreeStack, CLI tools, and starter kits remain proposals. Awesome Formato24 is linked as published after its separate repository was created and verified.
 
 The automated checks are described in [Validation and maintenance](validation.md). This audit is a dated snapshot, not a promise that repository settings cannot change.

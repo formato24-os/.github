@@ -6,6 +6,8 @@ Community foundations for [Formato24 Open Source](https://github.com/formato24-o
 
 [Website](https://formato24.com) · [Organization profile](profile/README.md) · [Contribute](CONTRIBUTING.md)
 
+Explore our first resource project: [Awesome Formato24](https://github.com/formato24-os/awesome-formato24).
+
 ## 📚 Community documents
 
 | Document | Purpose |
@@ -16,7 +18,7 @@ Community foundations for [Formato24 Open Source](https://github.com/formato24-o
 | [Security](SECURITY.md) | Private vulnerability reporting and disclosure. |
 | [Support](SUPPORT.md) | Where to ask questions and report problems. |
 | [Governance](GOVERNANCE.md) | Roles, decisions, and monthly project selection. |
-| [Repository plan](docs/REPOSITORY_PLAN.md) | Proposed resource library, FreeStack, CLI tools, and starter kits. |
+| [Repository plan](docs/REPOSITORY_PLAN.md) | Published repositories and proposals for FreeStack, CLI tools, and starter kits. |
 | [Validation](docs/validation.md) | Local checks and automated Markdown, YAML, issue form, and link validation. |
 | [Foundation audit](docs/foundation-audit.md) | Findings, improvements, and remaining owner decisions. |
 | [Repository security](docs/repository-security.md) | Security baseline and recommended protection for `main`. |
@@ -27,7 +29,7 @@ This public `.github` repository supplies default contributing, conduct, securit
 
 GitHub does not copy these files into other repositories. Repository-specific documents take precedence; a repository with its own issue templates or issue template configuration overrides the shared issue template directory. `GOVERNANCE.md` and the repository plan are referenced explicitly rather than inherited automatically. See [GitHub's default community file documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
 
-The [profile README](profile/README.md) appears on the organization's public overview. Proposed repositories in the plan are not announcements of released products.
+The [profile README](profile/README.md) appears on the organization's public overview. The repository plan distinguishes published projects from proposed work.
 
 ## Maintaining this repository
 
