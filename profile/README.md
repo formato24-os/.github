@@ -1,4 +1,4 @@
-# Formato24 Open Source
+# 🌐 Formato24 Open Source
 
 **Open technology. Built together.**
 
@@ -8,13 +8,13 @@ An international community building open source software and free resources for 
 
 ## What we build
 
-- **Open source software** that solves practical problems.
-- **Free developer resources** that make knowledge easier to find and apply.
-- **One main project each month**, with a focused scope and work developed in public.
+- 🛠️ **Open source software** that solves practical problems.
+- 📚 **Free developer resources** that make knowledge easier to find and apply.
+- 🚀 **One main project each month**, with a focused scope and work developed in public.
 
 We are establishing the community's foundations. Our [repository plan](https://github.com/formato24-os/.github/blob/main/docs/REPOSITORY_PLAN.md) outlines proposals for a curated resource library, FreeStack, CLI tools, and starter kits. Follow the organization repositories for published work and project updates.
 
-## Build with us
+## 🤝 Build with us
 
 Contribute code, improve documentation, test an idea, review a change, or suggest the next monthly project. Clear explanations and thoughtful feedback matter as much as code.
 

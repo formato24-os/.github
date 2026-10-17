@@ -1,4 +1,4 @@
-# Formato24 Open Source
+# 🌐 Formato24 Open Source
 
 **Open technology. Built together.**
 
@@ -6,7 +6,7 @@ Community foundations for [Formato24 Open Source](https://github.com/formato24-o
 
 [Website](https://formato24.com) · [Organization profile](profile/README.md) · [Contribute](CONTRIBUTING.md)
 
-## Community documents
+## 📚 Community documents
 
 | Document | Purpose |
 | --- | --- |
@@ -18,7 +18,7 @@ Community foundations for [Formato24 Open Source](https://github.com/formato24-o
 | [Governance](GOVERNANCE.md) | Roles, decisions, and monthly project selection. |
 | [Repository plan](docs/REPOSITORY_PLAN.md) | Proposed resource library, FreeStack, CLI tools, and starter kits. |
 
-## Shared GitHub defaults
+## 🔗 Shared GitHub defaults
 
 This public `.github` repository supplies default contributing, conduct, security, and support documents to organization repositories that do not define their own equivalents. It also provides [issue forms](.github/ISSUE_TEMPLATE) and a [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
 
