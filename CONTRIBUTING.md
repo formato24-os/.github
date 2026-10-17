@@ -25,7 +25,7 @@ Public issues and pull requests must not contain credentials, private data, or u
 - Use clear English for shared documentation and issue summaries. You do not need perfect English to participate.
 - Credit sources and verify that submitted code, text, and assets can be shared under the target repository's license.
 
-For the `.github` repository, review Markdown rendering, all links, and any changed YAML forms. Shared policies should use absolute links to this repository so they also work when displayed in other projects.
+For the `.github` repository, run the documented [validation commands](https://github.com/formato24-os/.github/blob/main/docs/validation.md) and review Markdown rendering. Shared policies should use absolute links to this repository so they also work when displayed in other projects. Repository-specific validation instructions take precedence in other projects.
 
 ## Open a pull request
 

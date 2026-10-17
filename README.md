@@ -17,6 +17,9 @@ Community foundations for [Formato24 Open Source](https://github.com/formato24-o
 | [Support](SUPPORT.md) | Where to ask questions and report problems. |
 | [Governance](GOVERNANCE.md) | Roles, decisions, and monthly project selection. |
 | [Repository plan](docs/REPOSITORY_PLAN.md) | Proposed resource library, FreeStack, CLI tools, and starter kits. |
+| [Validation](docs/validation.md) | Local checks and automated Markdown, YAML, issue form, and link validation. |
+| [Foundation audit](docs/foundation-audit.md) | Findings, improvements, and remaining owner decisions. |
+| [Repository security](docs/repository-security.md) | Security baseline and recommended protection for `main`. |
 
 ## 🔗 Shared GitHub defaults
 
@@ -28,8 +31,18 @@ The [profile README](profile/README.md) appears on the organization's public ove
 
 ## Maintaining this repository
 
-Keep public content in clear English. Before submitting changes, check Markdown rendering, relative paths, external links, and YAML issue form syntax. Keep shared forms independent of repository-specific labels, teams, and issue types. This repository contains community documentation and templates; it has no application build step.
+Keep public content in clear English. Keep shared forms independent of repository-specific labels, teams, and issue types. This repository contains community documentation, templates, and validation tools; it has no application build step.
+
+With Node.js 24 or newer and npm, run:
+
+```sh
+npm ci --ignore-scripts
+npm run check
+npm run check:links
+```
+
+See [Validation and maintenance](docs/validation.md) for check coverage, network limits, and documented exclusions.
 
 ## License
 
-These community files are available under the [MIT License](LICENSE). This license applies to this repository only. Each software or resource repository must include its own license; GitHub does not inherit licenses from `.github`.
+Original community files and validation scripts are available under the [MIT License](LICENSE). Vendored [SchemaStore schemas](scripts/schemas/README.md) retain their Apache License 2.0. These terms apply to this repository only. Each software or resource repository must include its own license; GitHub does not inherit licenses from `.github`.
