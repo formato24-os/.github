@@ -45,4 +45,4 @@ See [Validation and maintenance](docs/validation.md) for check coverage, network
 
 ## License
 
-These community files are available under the [MIT License](LICENSE). This license applies to this repository only. Each software or resource repository must include its own license; GitHub does not inherit licenses from `.github`.
+Original community files and validation scripts are available under the [MIT License](LICENSE). Vendored [SchemaStore schemas](scripts/schemas/README.md) retain their Apache License 2.0. These terms apply to this repository only. Each software or resource repository must include its own license; GitHub does not inherit licenses from `.github`.
