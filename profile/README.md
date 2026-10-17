@@ -12,7 +12,11 @@ An international community building open source software and free resources for 
 - 📚 **Free developer resources** that make knowledge easier to find and apply.
 - 🚀 **One main project each month**, with a focused scope and work developed in public.
 
-We are establishing the community's foundations. Our [repository plan](https://github.com/formato24-os/.github/blob/main/docs/REPOSITORY_PLAN.md) outlines proposals for a curated resource library, FreeStack, CLI tools, and starter kits. Follow the organization repositories for published work and project updates.
+## Featured project
+
+**[Awesome Formato24](https://github.com/formato24-os/awesome-formato24)** — A curated guide to free and open-source developer resources, with official sources and clear access, licensing, and deployment notes.
+
+Our [repository plan](https://github.com/formato24-os/.github/blob/main/docs/REPOSITORY_PLAN.md) tracks published work and proposals for FreeStack, CLI tools, and starter kits. Follow the organization repositories for project updates.
 
 ## 🤝 Build with us
 

@@ -1,21 +1,24 @@
-# Proposed repository structure
+# Repository structure and roadmap
 
-This plan describes possible future repositories for Formato24 Open Source. It does not announce existing products, available services, or release dates. Creating or changing any repository beyond `.github` requires separate owner authorization.
+This plan records published repositories and proposals for Formato24 Open Source. Only repositories marked **Published** below are available; the remaining entries are proposals without release dates. Work outside an explicitly authorized repository requires separate owner authorization.
 
 ## Repository map
 
-| Proposed repository | Purpose | Initial scope |
-| --- | --- | --- |
-| `awesome-formato24` | A curated directory of useful developer resources. | Clear categories, inclusion criteria, short descriptions, and a small reviewed collection. |
-| `freestack` | A catalog of free and open source options for building software. | Structured entries explaining capabilities, license, hosting model, and free-plan limits where applicable. |
-| `cli-<purpose>` | A focused command-line tool with a name that describes its task. | One validated workflow, useful help output, documented exit codes, and a tested installation path. |
-| `starter-<stack>` | A reusable starting point for a specific, validated stack. | A runnable example, setup instructions, checks, and a documented customization path. |
+| Repository | Status | Purpose | Initial scope |
+| --- | --- | --- | --- |
+| [`.github`](https://github.com/formato24-os/.github) | Published | Community foundations and shared defaults. | Profile, policies, templates, and automated content validation. |
+| [`awesome-formato24`](https://github.com/formato24-os/awesome-formato24) | Published | A curated directory of useful developer resources. | Verified category pages, inclusion criteria, maintenance guidance, and automated checks. |
+| `freestack` | Proposed | A catalog of free and open source options for building software. | Structured entries explaining capabilities, license, hosting model, and free-plan limits where applicable. |
+| `cli-<purpose>` | Proposed | A focused command-line tool with a name that describes its task. | One validated workflow, useful help output, documented exit codes, and a tested installation path. |
+| `starter-<stack>` | Proposed | A reusable starting point for a specific, validated stack. | A runnable example, setup instructions, checks, and a documented customization path. |
 
 `<purpose>` and `<stack>` are naming patterns, not literal repository names. Select exact names and technologies only after the use case is agreed.
 
 ## Suggested layouts
 
 ### awesome-formato24
+
+Published at [formato24-os/awesome-formato24](https://github.com/formato24-os/awesome-formato24). Its repository is the authoritative source for the current layout.
 
 ```text
 README.md                  # Curated index and selection criteria
@@ -73,8 +76,8 @@ Use a template repository when a starter is ready. Keep dependencies and optiona
 
 ## Launch sequence
 
-1. Establish the shared profile, policies, and templates in `.github`.
-2. Propose `awesome-formato24` as a focused first resource repository.
+1. Maintain the shared profile, policies, templates, and validation tools in `.github`.
+2. Maintain the published `awesome-formato24` catalog and add reproducible developer paths using its existing resources.
 3. Validate the FreeStack entry format and curation workload before creating `freestack`.
 4. Select the first monthly project through a proposal; choose a CLI tool or starter kit when it addresses a specific need and has a willing maintainer.
 
