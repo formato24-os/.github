@@ -1,84 +1,43 @@
-# Repository structure and roadmap
+# Repository plan
 
-This plan records published repositories and proposals for Formato24 Open Source. Only repositories marked **Published** below are available; the remaining entries are proposals without release dates. Work outside an explicitly authorized repository requires separate owner authorization.
+Reviewed **2026-10-18**. Formato24 is focusing on Cocosite instead of launching a new main project every month. This document supersedes earlier proposals for a resource catalog, FreeStack, independent CLI tools, and starter kits as parallel priorities.
 
-## Repository map
+## Current public presence
 
-| Repository | Status | Purpose | Initial scope |
-| --- | --- | --- | --- |
-| [`.github`](https://github.com/formato24-os/.github) | Published | Community foundations and shared defaults. | Profile, policies, templates, and automated content validation. |
-| [`awesome-formato24`](https://github.com/formato24-os/awesome-formato24) | Published | A curated directory of useful developer resources. | Verified category pages, inclusion criteria, maintenance guidance, and automated checks. |
-| `freestack` | Proposed | A catalog of free and open source options for building software. | Structured entries explaining capabilities, license, hosting model, and free-plan limits where applicable. |
-| `cli-<purpose>` | Proposed | A focused command-line tool with a name that describes its task. | One validated workflow, useful help output, documented exit codes, and a tested installation path. |
-| `starter-<stack>` | Proposed | A reusable starting point for a specific, validated stack. | A runnable example, setup instructions, checks, and a documented customization path. |
+| Repository or product | Status | Purpose |
+| --- | --- | --- |
+| [`.github`](https://github.com/formato24-os/.github) | Public repository | Organization profile, product direction, policies, feedback forms, and validation tools. |
+| Cocosite | Private development alpha | A free proprietary desktop workspace for homelab planning; see [scope and limitations](COCOSITE.md). |
 
-`<purpose>` and `<stack>` are naming patterns, not literal repository names. Select exact names and technologies only after the use case is agreed.
+The organization listing and direct repository lookups did not expose `awesome-formato24` or `freestack` at review time. They are not presented as available public projects. This review does not establish whether they were deleted, renamed, or made private. Local prototypes and historical audit records are not public availability announcements.
 
-## Suggested layouts
+## Cocosite source structure
 
-### awesome-formato24
-
-Published at [formato24-os/awesome-formato24](https://github.com/formato24-os/awesome-formato24). Its repository is the authoritative source for the current layout.
+The existing development layout keeps desktop, native components, and backend boundaries together. It is an implementation structure, not a promise to publish a repository:
 
 ```text
-README.md                  # Curated index and selection criteria
-LICENSE                    # Explicit reuse terms
-CONTRIBUTING.md             # Resource submission and review rules
-resources/                 # Focused category pages, when the index grows
-.github/workflows/          # Link and formatting checks
+apps/desktop/              # Desktop UI and native integration
+crates/                    # Native planning and command-line components
+services/api/              # Account-authorized workspace and AI gateway
+db/                        # Application schema and migrations
+os/                        # Future server OS design; no working image yet
+docs/                      # Architecture, product contract, and verification
 ```
 
-Each resource should have a direct official link, a short factual description, and a clear reason for inclusion. Mark paid products and limited free tiers accurately. Avoid referral links, unsupported rankings, and unverified claims.
+Keep command-line helpers and starter examples with the product while they are implementation details. Split them only if they become independently useful, maintainable deliverables. Naming a future repository does not authorize creating it or publishing proprietary source.
 
-### freestack
+## Before another repository is announced
 
-```text
-README.md                  # Purpose, scope, and how to browse the catalog
-LICENSE
-catalog/                   # Structured entries grouped by capability
-schema/                    # Entry format and validation rules
-docs/                      # Curation policy and example workflows
-scripts/                   # Catalog and link validation
-.github/workflows/          # Automated catalog checks
-```
+Define a concrete user need, maintainer, scope, license, data boundaries, setup or usage instructions, and meaningful checks. Verify that any linked source, build, or service is actually accessible to its stated audience.
 
-Suggested entry fields: `name`, `website`, `source`, `category`, `summary`, `license`, `hosting`, `free_plan_limits`, and `last_verified`. Distinguish open source software from proprietary services with free plans. Verify terms and limits against official sources; never promise that a free tier will remain available.
+An owner must explicitly authorize source publication, repository creation or transfer, and licensing. Public releases need their own readiness review; development authentication and a working local screen are not sufficient evidence. Existing rights and third-party notices must be retained.
 
-Start with the catalog. Consider a browsing interface only after the entry format and maintenance process are useful in practice.
+## Next product gates
 
-### CLI tools
+1. Complete real email delivery and native account/session acceptance.
+2. Verify hosted AI configuration, request limits, data handling, and real responses.
+3. Validate the desktop planning workflow with actual test users.
+4. Design and separately verify server enrollment and OS preparation.
+5. Add workload operations only with typed actions, previews, audit records, and explicit destructive-action authorization.
 
-```text
-README.md                  # Installation, quick start, and examples
-LICENSE
-src/                       # Command implementation
-tests/                     # User-visible behavior and failure paths
-docs/                      # Command reference and design decisions
-examples/                  # Small, reproducible workflows
-.github/workflows/          # Checks and release automation
-```
-
-Prefer one repository per independently released tool. Choose the language and distribution channel to suit its users. Design safe defaults, clear errors, and explicit confirmation for destructive commands. Document configuration without embedding credentials.
-
-### Starter kits
-
-```text
-README.md                  # Prerequisites, setup, checks, and deployment options
-LICENSE
-src/                       # Minimal working application or package
-tests/                     # Checks for the primary starter workflow
-docs/                      # Architecture and customization notes
-.env.example               # Variable names with non-secret example values
-.github/workflows/          # Checks for the documented setup
-```
-
-Use a template repository when a starter is ready. Keep dependencies and optional integrations minimal. Each starter should work without an undisclosed account, unavailable service, or committed credential. Choose exact stack names after evaluating the intended audience and maintenance capacity.
-
-## Launch sequence
-
-1. Maintain the shared profile, policies, templates, and validation tools in `.github`.
-2. Maintain the published `awesome-formato24` catalog and add reproducible developer paths using its existing resources.
-3. Validate the FreeStack entry format and curation workload before creating `freestack`.
-4. Select the first monthly project through a proposal; choose a CLI tool or starter kit when it addresses a specific need and has a willing maintainer.
-
-Every new repository should define its purpose, status, license, setup or usage instructions, maintenance responsibility, and a realistic initial scope. Inherit community defaults where suitable and override them only when project-specific guidance is needed. Enable private vulnerability reporting per repository; that setting is not inherited from `.github`.
+These are dependencies, not dated commitments. No Enterprise offering or cloud workload-hosting service is announced.

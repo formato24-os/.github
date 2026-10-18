@@ -1,41 +1,44 @@
-# 🌐 Formato24 Open Source
+# Formato24 · GitHub home
 
-**Open technology. Built together.**
+Public profile, product direction, and shared contribution guidelines for **Formato24**. Our current focus is **Cocosite**, a free proprietary desktop application for homelab planning, in private alpha development.
 
-Community foundations for [Formato24 Open Source](https://github.com/formato24-os), an international community building open source software and free developer resources.
+[Organization profile](profile/README.md) · [Cocosite](docs/COCOSITE.md) · [Website](https://formato24.com) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
 
-[Website](https://formato24.com) · [Organization profile](profile/README.md) · [Contribute](CONTRIBUTING.md)
+## Current direction
 
-Explore our first resource project: [Awesome Formato24](https://github.com/formato24-os/awesome-formato24).
+Formato24 is moving from a broad open-source community and monthly project cycle to sustained work on Cocosite. We no longer promise a new main project every month or describe every Formato24 product as open source. The organization remains at `formato24-os`; repository names do not determine a product's license.
 
-## 📚 Community documents
+Cocosite's current Windows alpha provides account and email-code flows, project onboarding, local plans, resource budgets, and real desktop hardware readings. Hosted AI, a dedicated server OS, and workload management have separate delivery gates. See the [product status](docs/COCOSITE.md) before assuming a capability is available.
+
+This repository publishes documentation, community policies, issue forms, and validation scripts. It does not distribute Cocosite source, application binaries, credentials, or an operational homelab service.
+
+## 📚 Repository guide
 
 | Document | Purpose |
 | --- | --- |
-| [Organization profile](profile/README.md) | Public introduction displayed on the organization overview. |
-| [Contributing](CONTRIBUTING.md) | How to propose, develop, and review changes. |
-| [Code of Conduct](CODE_OF_CONDUCT.md) | Participation standards and reporting options. |
-| [Security](SECURITY.md) | Private vulnerability reporting and disclosure. |
-| [Support](SUPPORT.md) | Where to ask questions and report problems. |
-| [Governance](GOVERNANCE.md) | Roles, decisions, and monthly project selection. |
-| [Repository plan](docs/REPOSITORY_PLAN.md) | Published repositories and proposals for FreeStack, CLI tools, and starter kits. |
-| [Validation](docs/validation.md) | Local checks and automated Markdown, YAML, issue form, and link validation. |
-| [Foundation audit](docs/foundation-audit.md) | Findings, improvements, and remaining owner decisions. |
-| [Repository security](docs/repository-security.md) | Security baseline and recommended protection for `main`. |
+| [Organization profile](profile/README.md) | The public introduction shown on GitHub. |
+| [Cocosite](docs/COCOSITE.md) | Product scope, alpha status, and data boundaries. |
+| [Repository plan](docs/REPOSITORY_PLAN.md) | Current public repository and conditions for future repositories. |
+| [Contributing](CONTRIBUTING.md) | Feedback, documentation changes, and license-aware contributions. |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | Participation standards and reporting routes. |
+| [Security](SECURITY.md) | Private vulnerability reporting. |
+| [Support](SUPPORT.md) | Product questions, alpha feedback, and account issues. |
+| [Governance](GOVERNANCE.md) | Maintainer responsibilities and product decisions. |
+| [Validation](docs/validation.md) | Local checks and automated content validation. |
+| [Repository security](docs/repository-security.md) | Security settings and branch-protection guidance. |
+| [Foundation audit](docs/foundation-audit.md) | Historical record of the previous foundation. |
 
-## 🔗 Shared GitHub defaults
+## Shared GitHub defaults
 
-This public `.github` repository supplies default contributing, conduct, security, and support documents to organization repositories that do not define their own equivalents. It also provides [issue forms](.github/ISSUE_TEMPLATE) and a [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
+This public `.github` repository supplies default contribution, conduct, security, and support documents where another organization repository has no equivalent. It also provides [issue forms](.github/ISSUE_TEMPLATE) and a [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
 
-GitHub does not copy these files into other repositories. Repository-specific documents take precedence; a repository with its own issue templates or issue template configuration overrides the shared issue template directory. `GOVERNANCE.md` and the repository plan are referenced explicitly rather than inherited automatically. See [GitHub's default community file documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+Repository-specific policies take precedence. These files do not grant access to private source, set a product's license, or establish a support contract. Governance and product status are linked explicitly rather than inherited. See [GitHub's default community file documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
 
-The [profile README](profile/README.md) appears on the organization's public overview. The repository plan distinguishes published projects from proposed work.
+## Maintenance
 
-## Maintaining this repository
+Use clear English, keep a small number of useful emojis, and link only to resources that are actually available. Shared forms must work without repository-specific labels, teams, or issue types.
 
-Keep public content in clear English. Keep shared forms independent of repository-specific labels, teams, and issue types. This repository contains community documentation, templates, and validation tools; it has no application build step.
-
-With Node.js 24 or newer and npm, run:
+With Node.js 24 or newer:
 
 ```sh
 npm ci --ignore-scripts
@@ -43,8 +46,8 @@ npm run check
 npm run check:links
 ```
 
-See [Validation and maintenance](docs/validation.md) for check coverage, network limits, and documented exclusions.
+This repository has no application build step. See [validation and maintenance](docs/validation.md) for coverage and network limitations.
 
 ## License
 
-Original community files and validation scripts are available under the [MIT License](LICENSE). Vendored [SchemaStore schemas](scripts/schemas/README.md) retain their Apache License 2.0. These terms apply to this repository only. Each software or resource repository must include its own license; GitHub does not inherit licenses from `.github`.
+The existing [MIT License](LICENSE) continues to cover this repository's original community documents and validation scripts. Vendored [SchemaStore schemas](scripts/schemas/README.md) retain their Apache License 2.0 terms. Cocosite has separate proprietary terms; publishing its description here does not license its source or binaries. Previously granted rights and third-party notices remain in effect.

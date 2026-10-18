@@ -1,6 +1,6 @@
 # Repository security baseline
 
-This guidance applies to the documentation repositories `.github` and `awesome-formato24`. It does not change organization-wide permissions or settings in unrelated repositories.
+This guidance applies to the public `.github` repository. Other repositories must verify their own settings; this document does not change organization-wide access or Cocosite product licensing.
 
 ## Settings to maintain
 

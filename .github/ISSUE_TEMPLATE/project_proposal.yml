@@ -1,12 +1,13 @@
 name: Project proposal
-description: Propose a new project or a candidate for the monthly project cycle.
+description: Propose a focused initiative with a clear relation to Formato24's current direction.
 title: "[Project]: "
 body:
   - type: markdown
     attributes:
       value: |
         Organization-wide proposals belong in [community issues](https://github.com/formato24-os/.github/issues).
-        A proposal does not create a repository or commit the community to a release date.
+        Cocosite is the current product focus. There is no monthly project cycle.
+        A proposal does not create a repository, authorize source publication, or commit maintainers to a release date.
         See our [governance model](https://github.com/formato24-os/.github/blob/main/GOVERNANCE.md) for the selection process.
   - type: textarea
     id: problem
@@ -25,8 +26,15 @@ body:
   - type: textarea
     id: scope
     attributes:
-      label: Scope for one month
-      description: List essential work, exclusions, dependencies, and how success could be verified.
+      label: Scope and relation to Cocosite
+      description: Explain how this supports the current product direction. List essential work, exclusions, dependencies, and how success could be verified.
+    validations:
+      required: true
+  - type: textarea
+    id: licensing
+    attributes:
+      label: Licensing and publication
+      description: Describe proposed reuse terms and third-party dependencies. Do not assume product source can be published or that all Formato24 projects use the same license.
     validations:
       required: true
   - type: textarea

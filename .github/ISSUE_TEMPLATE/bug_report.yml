@@ -7,6 +7,14 @@ body:
       value: |
         Search existing issues before reporting a bug. Use the affected project's repository whenever possible.
         Do not post secrets or undisclosed vulnerabilities. Follow our [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md) for private reports.
+        For Cocosite, check the [alpha scope](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). Never post verification codes, tokens, account emails, or private homelab addresses.
+  - type: input
+    id: project
+    attributes:
+      label: Affected project or repository
+      placeholder: Cocosite Desktop, organization profile, or another repository
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
@@ -36,7 +44,7 @@ body:
     id: environment
     attributes:
       label: Version and environment
-      description: Include the version or commit and relevant OS, runtime, or browser. For documentation, provide the page URL.
+      description: Include the build version shown in the app, relevant OS and browser/runtime, or the documentation URL. State whether the issue affects sign-up, verification, sign-in, onboarding, or a project action.
     validations:
       required: true
   - type: textarea

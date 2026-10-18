@@ -1,5 +1,7 @@
 # Foundation audit
 
+> Historical snapshot of the earlier open-source community model. Current direction is documented in [Cocosite](COCOSITE.md) and the [repository plan](REPOSITORY_PLAN.md). Project availability and plans below describe the audit date, not current commitments.
+
 Audit date: **2026-10-17**. Scope: `formato24-os/.github`. Baseline commit: `815182c8fdb5f17f592ac84230e87052b54a5fff`.
 
 ## Existing foundation

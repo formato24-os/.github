@@ -1,23 +1,27 @@
 # Support
 
-Community support takes place through GitHub issues. Response times depend on maintainer and contributor availability; no dedicated support service or service-level agreement is offered by this document.
+Use GitHub issues for public documentation questions and non-sensitive feedback. Cocosite is in private alpha development; this repository does not announce public downloads or a dedicated support service. Replies depend on maintainer availability, with no service-level agreement.
 
-## Find the right place
+## Find the right route
 
-| You need to... | Start here |
+| Request | Route |
 | --- | --- |
-| Understand or use a project | Read its README, examples, and existing issues. |
-| Ask a usage question | Open an issue in the affected repository with your goal, attempted steps, and environment. |
-| Report a bug or improve documentation | Use the affected repository's issue templates. |
-| Propose a feature | Explain the problem, use case, and alternatives in the relevant repository. |
-| Suggest a monthly project or discuss the organization | Use [community issues](https://github.com/formato24-os/.github/issues/new/choose). |
-| Report a vulnerability | Follow the [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md) privately. |
+| Understand Cocosite's status | Read the [product overview](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). |
+| Report a test-build problem | Use [Bug report](https://github.com/formato24-os/.github/issues/new/choose); include the product and build version. |
+| Ask a question or suggest a feature | Use the issue chooser; state your goal and relevant constraints. |
+| Correct these documents | Open a documentation issue or pull request. |
+| Ask about another available repository | Follow that repository's own support instructions first. |
+| Report a vulnerability | Follow [Security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) privately. |
 | Report harmful behavior | Follow the [Code of Conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md). |
 
-For questions that do not fit a template, choose **Open a blank issue**. If a project has its own support instructions, follow those first. Browse the [organization repositories](https://github.com/orgs/formato24-os/repositories) to find the affected project.
+## Account and verification issues
 
-## Make your request useful
+Describe the failing step: account creation, email delivery, code entry, sign-in, or opening the workspace. Include the build version and the visible error text. Check the spam folder if a verification email is missing; use the app's resend action when available.
 
-Use a clear title, describe what you are trying to achieve, and include the relevant version or commit. For a bug, provide reproducible steps and expected versus actual behavior. Share only the smallest useful example and redact secrets and private information from logs or screenshots.
+Never post passwords, verification codes, reset links, tokens, cookies, account email addresses, or private homelab addresses. Maintainers do not need these secrets in a GitHub issue. A public issue is not an account-recovery channel; sensitive recovery needs a maintainer-provided private route. No dedicated recovery email address is announced here.
 
-Keep follow-up information in the same issue. If you find a solution, document it so others can benefit. Questions about contributing belong in the [contribution guide](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md) or a community issue when clarification is needed.
+## Useful reports
+
+Give reproducible steps and expected versus actual behavior. Attach only sanitized evidence and keep follow-up information in one issue. Distinguish readings from the desktop running Cocosite from estimates for a future server. The current alpha does not install an OS or deploy workloads, and hosted AI inference is not yet available.
+
+If you find a workaround, document it without exposing private details. Source access, feature requests, and support questions are separate decisions; none guarantees a delivery date.

@@ -6,7 +6,14 @@ body:
     attributes:
       value: |
         Search existing proposals first. Explain the problem before suggesting an implementation.
-        For a new monthly project, use the project proposal form instead.
+        Cocosite is the current priority; there is no monthly project release commitment.
+        Distinguish a new capability from a bug in the [documented alpha scope](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md).
+  - type: input
+    id: project
+    attributes:
+      label: Affected project or repository
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
@@ -30,4 +37,4 @@ body:
     id: context
     attributes:
       label: Scope and context
-      description: Note constraints, related issues, and any implementation or testing help you can offer.
+      description: Note hardware or connectivity constraints, data/privacy implications, related issues, and any testing help you can offer. Omit private device and account details.

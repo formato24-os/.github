@@ -5,7 +5,7 @@
     "SECURITY.md", "SUPPORT.md", "GOVERNANCE.md", "LICENSE", "docs/REPOSITORY_PLAN.md",
     ".github/PULL_REQUEST_TEMPLATE.md", ".github/ISSUE_TEMPLATE/config.yml",
     ".github/workflows/validate.yml", "package-lock.json", "docs/validation.md",
-    "docs/foundation-audit.md", "docs/repository-security.md"
+    "docs/foundation-audit.md", "docs/repository-security.md", "docs/COCOSITE.md"
   ],
   "catalog": false,
   "linkCheck": {
@@ -15,7 +15,7 @@
     "attempts": 3,
     "exclusions": [
       {
-        "pattern": "^https://github\\.com/formato24-os/(?:\\.github|awesome-formato24)/(?:issues/new(?:/choose)?|security/advisories/new)(?:[?#].*)?$",
+        "pattern": "^https://github\\.com/formato24-os/\\.github/(?:issues/new(?:/choose)?|security/advisories/new)(?:[?#].*)?$",
         "reason": "GitHub issue creation and private vulnerability submission require sign-in; verify issue availability and private reporting separately through authenticated repository settings."
       }
     ]

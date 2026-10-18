@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Formato24 Open Source welcomes people of all backgrounds, identities, abilities, locations, and experience levels. Everyone participating in our projects is expected to help create a respectful environment.
+Formato24 welcomes people of all backgrounds, identities, abilities, locations, and experience levels. Everyone participating in our projects is expected to help create a respectful environment.
 
 ## Expected behavior
 
@@ -14,7 +14,7 @@ Harassment, discrimination, threats, sexualized attention, personal attacks, sus
 
 ## Scope
 
-This policy applies in organization repositories, issues, pull requests, and other spaces explicitly operated by Formato24 Open Source. It also applies when someone represents the community in an official capacity. Participation does not by itself authorize someone to speak for the organization.
+This policy applies in organization repositories, issues, pull requests, and other spaces explicitly operated by Formato24. It also applies when someone represents the community in an official capacity. Participation does not by itself authorize someone to speak for the organization.
 
 ## Reporting a concern
 

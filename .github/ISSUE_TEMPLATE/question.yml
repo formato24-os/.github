@@ -1,0 +1,30 @@
+name: Question or alpha feedback
+description: Ask a non-sensitive question or share feedback about Cocosite or these documents.
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read [Support](https://github.com/formato24-os/.github/blob/main/SUPPORT.md) first.
+        This issue is public. Do not include account email addresses, passwords, verification codes, reset links, tokens, or private homelab details.
+        Cocosite is in private development alpha; this form does not provide access to a build or a private account-recovery channel.
+  - type: input
+    id: project
+    attributes:
+      label: Project and version, if applicable
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: Describe your goal and the question or feedback you want maintainers to consider.
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you checked or tried?
+      description: Link relevant documentation and describe the affected step. Redact all private details.
+    validations:
+      required: true

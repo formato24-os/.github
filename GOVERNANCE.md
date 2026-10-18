@@ -1,43 +1,39 @@
 # Governance
 
-Formato24 Open Source uses a maintainer-led model. Decisions should be understandable, recorded in public when appropriate, and guided by usefulness, maintainability, and respect for contributors.
+Formato24 uses a maintainer-led model. Its current priority is sustained development of Cocosite. This direction replaces the earlier proposal for a new main project every month; there is no fixed monthly launch commitment.
 
-This document defines responsibilities, not a claim that a foundation, elected board, or separate teams already exist. During the initial phase, organization owners may also carry out repository maintainer responsibilities.
+This document defines responsibilities, not an existing foundation, elected board, or staffed department. Organization owners may also perform repository maintainer duties.
 
-## Roles
+## Responsibilities
 
 | Role | Responsibility |
 | --- | --- |
-| Contributors | Propose improvements, contribute work, review changes, and follow community policies. |
-| Repository maintainers | Triage issues, guide technical direction, review and merge work, and manage project releases. |
-| Organization owners | Manage organization access, appoint maintainers, resolve cross-project decisions, and handle escalations. |
+| Participants | Offer constructive feedback and respect project policies, privacy, and licensing. |
+| Repository maintainers | Triage issues, guide implementation, review changes, verify claims, and manage repository releases. |
+| Organization owners | Set product priorities, appoint maintainers, manage access, and decide organization-wide licensing and publication. |
 
-GitHub permissions determine who can act on a repository. Repository-specific governance may add detail. No role or permission is granted automatically by contribution count, sponsorship, or participation.
+GitHub permissions determine who can act. Participation does not automatically grant source access, a maintainer role, or authority to represent Formato24.
 
-## Decisions
+## Product decisions
 
-Discuss routine changes in the relevant issue or pull request. Maintainers should seek agreement, explain tradeoffs, and record the reason for significant decisions before merging. Substantial changes should receive review from someone other than the author when a reviewer is available.
+Proposals should identify a concrete user problem, the smallest useful outcome, dependencies, risks, and maintenance cost. Maintainers evaluate them against the current product focus and available capacity. Public feedback informs decisions without constituting a binding vote.
 
-If agreement cannot be reached, the responsible repository maintainers decide within their project. Organization owners resolve cross-project questions or escalations. People with a conflict of interest should disclose it and step aside where possible. Security and conduct matters may need private handling rather than public discussion.
+Record significant decisions in the appropriate issue, pull request, or product document when they can be shared. Security, account, commercial, and proprietary implementation matters may need private handling. Disclose conflicts of interest and seek an uninvolved reviewer where possible. Owners resolve cross-project disagreements and escalations.
 
-## Monthly project cycle
+## Publication and licensing
 
-Our intended rhythm is one main project each month. The cycle provides focus; it does not guarantee a release date or a fixed quantity of output.
+Each repository and product needs explicit terms. A free product is not necessarily open source; public issue tracking does not grant implementation rights. Cocosite's current direction is proprietary and free to use under separate terms. This community repository retains its existing MIT license, prior grants remain valid, and third-party notices must be preserved.
 
-1. **Propose.** Submit a project proposal through [community issues](https://github.com/formato24-os/.github/issues/new/choose), describing the problem, audience, scope, and likely maintenance needs.
-2. **Evaluate.** Maintainers consider practical value, contributor availability, feasibility within the month, accessibility, and ongoing maintenance cost. Community feedback informs the decision.
-3. **Select.** Record the chosen proposal, intended outcome, lead maintainer, and month in the issue. Selection does not create a repository or release by itself.
-4. **Build.** Track work in the selected project's issues and pull requests. Adjust scope openly when necessary.
-5. **Review.** Publish the outcome and follow-up work in the proposal issue or repository documentation, including incomplete work when relevant.
+Source publication, repository creation or transfer, licensing changes, access changes, and commercial offerings require an explicit owner decision. Neither a roadmap entry nor an accepted feedback issue authorizes them.
 
-No monthly project is designated by this document. The [repository plan](https://github.com/formato24-os/.github/blob/main/docs/REPOSITORY_PLAN.md) is a proposal for future organization structure.
+## Status and releases
+
+Describe implemented features, verified workflows, planned work, and public availability separately. Do not present estimates as live metrics, an alpha as a generally available service, or a proposal as an Enterprise offering. Release dates and support commitments exist only when expressly announced for that product.
+
+The [Cocosite overview](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) and [repository plan](https://github.com/formato24-os/.github/blob/main/docs/REPOSITORY_PLAN.md) record the current direction.
 
 ## Access and continuity
 
-Owners may appoint maintainers based on sustained, constructive participation, technical judgment, and willingness to maintain a project. Access should be limited to what the role requires and reviewed when responsibilities change. Material access changes should be documented where doing so does not expose private information.
+Owners should grant the least access needed, review it when responsibilities change, and coordinate handovers before maintainers step back. Preserve user data and previously published rights. Archival, deletion, or transfer requires an explicit owner decision.
 
-Before stepping back, a maintainer should document ongoing work and coordinate a handover where possible. If a project lacks maintenance capacity, its README should state that limitation. Any proposal to archive or transfer a repository requires an explicit owner decision.
-
-## Changes and escalation
-
-Propose changes to this model through an issue or pull request in [`.github`](https://github.com/formato24-os/.github). Owners make the final organization-wide decision after considering contributor feedback. Use the [Code of Conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md) and [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md) for sensitive concerns.
+Propose governance changes through [community issues](https://github.com/formato24-os/.github/issues/new/choose). Use the [conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md) and [security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) routes for sensitive matters.

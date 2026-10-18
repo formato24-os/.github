@@ -32,7 +32,7 @@ The link checker deduplicates URLs, checks at most two hosts concurrently, and p
 
 Network failures, HTTP 408, 425, 429, and 5xx responses receive up to three attempts with exponential delays. `Retry-After` is honored within a 30-second retry budget; a longer delay returns an unverified result for a later run. HTTP 403 and 429 are never accepted as successful checks. Persistent failures produce a nonzero exit code and should be investigated rather than automatically deleting an entry.
 
-The only initial exclusions in `.validation.json` are exact GitHub issue creation and private vulnerability submission routes for the two Formato24 repositories. These require sign-in; verify the underlying issue and security settings separately. Every exclusion must explain its reason. Do not exempt entire domains, suppress arbitrary HTTP failures, or disable TLS verification to obtain a passing result.
+The only exclusions in `.validation.json` are exact GitHub issue creation and private vulnerability submission routes for `.github`. These require sign-in; verify the underlying issue and security settings separately. Every exclusion must explain its reason. Do not exempt entire domains, suppress arbitrary HTTP failures, or disable TLS verification to obtain a passing result.
 
 No HTTP cache is persisted between CI runs, so scheduled checks make fresh requests. Local references are always checked. Link requests send no credentials or authorization headers.
 
