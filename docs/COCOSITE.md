@@ -1,41 +1,39 @@
 # Cocosite
 
-**A desktop workspace for planning your homelab.**
+**A desktop management workspace for your homelab, by Formato24.**
 
-Cocosite is Formato24's main product in development. It is intended to help someone with a single dedicated computer turn an idea into a practical homelab plan, then manage that system through a desktop application and an AI-assisted workflow.
+Status reviewed: **2026-10-21 — beta qualification in progress**.
 
-Status reviewed: **2026-10-18**. The current Windows development alpha is not a public product launch. No public source repository, download, release date, Enterprise service, or deployment service is announced by this document.
+## Development build
 
-## Current alpha scope
-
-| Area | Implemented in the development alpha | Limit |
+| Area | Implemented behavior | Boundary |
 | --- | --- | --- |
-| Accounts | Email/password access, six-digit email verification, and session handling. | Real inbox delivery and native login/session persistence still need end-user acceptance testing. |
-| Onboarding | Workspace, target hardware estimates, project brief, and review. | These steps create a plan; they do not install or deploy a system. |
-| Projects | Local SQLite persistence, resource budgets, and JSON export. | Local projects are shared by accounts using the same Windows profile; they are not cloud-synchronized or isolated by online account. |
-| Hardware | Read-only CPU, memory, uptime, and volume information from the desktop running the app. | Target server estimates and imported reports are not live server telemetry. |
-| Connected backend | Account-owned cloud workspace metadata and an authenticated API. | Hosted AI inference is not available yet; provider configuration and end-to-end acceptance remain pending. |
+| Accounts | Neon Auth email verification and Google sign-in integration | Public OAuth, email delivery and recovery must pass launch acceptance. |
+| Storage | Local account-separated projects and explicit cloud metadata synchronization | Secrets and complete operational configurations are not cloud-synchronized. |
+| Environments | Explicit mutual TLS pairing and authenticated node snapshots | Connectivity requires the local network or a separately configured VPN. |
+| Workloads | Digest-pinned catalog, restricted Compose, immutable approved plans and durable local operation receipts | No unrestricted AI shell; removal preserves named volumes. |
+| Management | Container, image, network and volume inventory; bounded host settings and power controls; Swarm resource management adapters | A management grouping is not distributed scheduling or high availability. |
+| AI | Hosted advice, typed proposals and constrained UI widgets | Provider availability is shared. No unlimited inference or automatic paid upgrade is promised. |
+| Installation | Graphical Ubuntu-based image builder, signed-image USB writer and Windows MSI candidate | VM qualification is not physical hardware acceptance or a public release. |
 
-The product is being tested with development infrastructure. A completed screen or passing component test does not establish that an end-user journey is ready for public use.
+The free product targets **one cluster with up to three explicitly paired computers**. Hardware is detected after connection; users do not need to estimate CPU or RAM to name a cluster.
 
-## Planned system
+## Local workloads, connected services
 
-The intended journey starts in Cocosite Desktop: describe the project, review the available hardware, prepare a dedicated server, and manage it from the desktop workspace. A future Ubuntu Server-based Cocosite OS would provide the server foundation and a minimal status/recovery console.
+Workloads, volumes, operational secrets and container logs stay on the user's computers. Accounts, selected project metadata and hosted AI use cloud services. Users choose the context shared with the assistant. Project and server identifiers are public identifiers, not credentials.
 
-Bootable images, USB preparation, server enrollment, container stacks, virtual machines, and Kubernetes are **planned capabilities**. They are not operational features in the current alpha. There is no promised delivery schedule.
+Every executable change must pass deterministic validation and receive approval for its exact target, configuration and observed state. Durable operation receipts support duplicate requests and reconnection. Existing workloads continue independently of cloud AI.
 
-## Local hardware, connected AI
+## Availability
 
-Homelab workloads are intended to run on the user's hardware. Account authentication, cloud workspace metadata, and the intended hosted AI experience require connected services. Cocosite is not an entirely local or offline AI product, and it is not a cloud workload-hosting product.
+Windows x64 is the desktop target. The dedicated server target is Ubuntu Server 24.04 x86-64. Public downloads remain closed until release checks pass. The [beta access page](https://cocosite.formato24.com/beta) reports current registration and download availability.
 
-The intended AI request shares the project brief, selected resource estimates and workloads, and limited recent conversation with the Cocosite backend and its inference provider. Desktop hardware readings are not automatically uploaded. Secrets belong on the backend, never in application bundles, exports, issues, or logs.
+Kubernetes, virtual machines, a Cocosite cloud relay, automatic high availability and an Enterprise service are not part of the current release.
 
-The current assistant has no execution tools. Any future execution path must use validated operations, clear previews, audit records, and explicit authorization for destructive changes. A project identifier is not a pairing credential.
+## Licensing and feedback
 
-## Availability and licensing
+Cocosite is proprietary and free to use under its product terms. This repository's documentation license does not cover the application. Existing third-party rights remain unchanged.
 
-Cocosite is proprietary and intended to be free to use under its own terms. That does not imply source access, redistribution rights, unlimited inference, guaranteed service availability, or an Enterprise offering. The MIT license in this `.github` repository covers its community material, not the product. Existing license grants and third-party rights are preserved.
+[Cocosite website](https://cocosite.formato24.com) · [Formato24](https://www.formato24.com) · [TikTok @formato24.com](https://www.tiktok.com/@formato24.com) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
 
-## Feedback
-
-If you have received a test build, use [the issue chooser](https://github.com/formato24-os/.github/issues/new/choose) and include its version, the affected step, and reproducible behavior. Public reports must exclude email verification codes, passwords, tokens, personal account details, and private homelab information. Report vulnerabilities through the [private security route](../SECURITY.md).
+Report vulnerabilities through the [private security route](../SECURITY.md). Never include credentials or private system details in a public issue.

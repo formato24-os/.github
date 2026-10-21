@@ -1,30 +1,33 @@
 # Formato24
 
-**Software for developers and the homelab you want to build.**
+**Software, interfaces and infrastructure.**
 
-Our main project is **Cocosite**: a free desktop application in early development that brings homelab planning, hardware information, and an AI-assisted workflow into one workspace.
+We build software products and the systems behind them. Our main product is **Cocosite**, a free desktop application for managing dedicated homelab computers with reviewed, AI-assisted changes.
 
-[Website](https://formato24.com) · [Project direction](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
+[Website](https://www.formato24.com) · [Cocosite](https://cocosite.formato24.com) · [TikTok](https://www.tiktok.com/@formato24.com)
 
 ## 🖥️ Cocosite
 
-Start with the computer you have. Describe the homelab you want, review its resource requirements, and keep the plan in one place.
+Connect your Windows desktop to dedicated Linux computers. Inspect resources, prepare container stacks and approve the exact changes before they run.
 
-The Windows alpha includes project onboarding, local project storage, hardware readings from the desktop running the app, and resource planning. Accounts use email verification. The intended AI experience connects to a hosted Cocosite backend; workloads are intended to run on your own hardware.
+The current development build includes verified accounts, local account-separated storage, project metadata synchronization, mutual TLS server pairing, Docker Compose operations, bounded host controls and a hosted AI integration. New management views cover engine resources and Swarm metadata.
 
-**Status: private development alpha.** Public downloads and release dates have not been announced. Hosted AI inference is not available yet. OS installation, server pairing, and container, VM, or Kubernetes deployment remain planned work.
+**Status: beta qualification.** Public installer distribution remains closed while release checks are completed. A passing VM test does not establish compatibility with every physical computer.
 
-Cocosite is **proprietary software intended to be free to use**. Its source is not being published as an open-source project. Public documentation and feedback do not grant rights to the product source or binaries.
+Cocosite is **proprietary and free to use**. Its source is private. Public documentation does not grant access to application source or redistribution rights.
+
+[Product scope and boundaries](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) · [Beta access](https://cocosite.formato24.com/beta)
 
 ## 🧭 How we work
 
-- Focus on Cocosite and a useful, testable workflow before adding more products.
-- Separate working features from plans, and report limitations clearly.
-- Keep infrastructure workloads on the user's hardware; connected accounts and hosted AI have their own data boundaries.
-- Choose and document a license for each repository. Free to use and open source describe different rights.
+- Build around concrete tasks and real system observations.
+- Keep workloads, volumes and operational secrets on the user's hardware.
+- Require validated plans and explicit approval for system changes.
+- Distinguish implemented features from qualified public releases.
+- Preserve the licenses and notices of third-party components.
 
-## 🤝 Get involved
+## 🤝 Feedback
 
-Share a concrete use case, report a reproducible issue, or improve these public documents. If you have received a test build, include its version and remove account details, verification codes, and private homelab information from your report.
+Share a use case or report a reproducible issue. Include the build version and affected step. Remove passwords, verification codes, tokens and private homelab information.
 
-[Contributing](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md) · [Support](https://github.com/formato24-os/.github/blob/main/SUPPORT.md) · [Security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) · [Code of Conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md)
+[Feedback](https://github.com/formato24-os/.github/issues/new/choose) · [Support](https://github.com/formato24-os/.github/blob/main/SUPPORT.md) · [Security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) · [Contributing](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md)
