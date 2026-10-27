@@ -26,7 +26,7 @@ Every executable change must pass deterministic validation and receive approval 
 
 ## Availability
 
-Windows x64 is the desktop target. The dedicated server target is Ubuntu Server 24.04 x86-64. Public downloads remain closed until release checks pass. The [beta access page](https://cocosite.formato24.com/beta) reports current registration and download availability.
+Windows x64 is the desktop target. The dedicated server target is Ubuntu Server 24.04 x86-64. Public downloads remain closed until release checks pass. Cocosite's public website and beta registration page were taken offline on 2026-10-27; there is currently no public registration or download page.
 
 Kubernetes, virtual machines, a Cocosite cloud relay, automatic high availability and an Enterprise service are not part of the current release.
 
@@ -34,6 +34,6 @@ Kubernetes, virtual machines, a Cocosite cloud relay, automatic high availabilit
 
 Cocosite is proprietary and free to use under its product terms. This repository's documentation license does not cover the application. Existing third-party rights remain unchanged.
 
-[Cocosite website](https://cocosite.formato24.com) · [Formato24](https://www.formato24.com) · [TikTok @formato24.com](https://www.tiktok.com/@formato24.com) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
+[Formato24](https://www.formato24.com) · [TikTok @formato24.com](https://www.tiktok.com/@formato24.com) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
 
 Report vulnerabilities through the [private security route](../SECURITY.md). Never include credentials or private system details in a public issue.

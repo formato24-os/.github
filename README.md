@@ -1,16 +1,14 @@
 # Formato24 · GitHub home
 
-Public profile, product direction, and shared contribution guidelines for **Formato24**. Our current focus is **Cocosite**, a free proprietary desktop application for homelab planning, in private alpha development.
+Public profile and shared contribution guidelines for **Formato24**, a studio that designs and builds websites, iPhone and Android apps, and the infrastructure behind them.
 
-[Organization profile](profile/README.md) · [Cocosite](docs/COCOSITE.md) · [Website](https://formato24.com) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
+[Organization profile](profile/README.md) · [Website](https://www.formato24.com) · [News](https://www.formato24.com/notizie) · [Feedback](https://github.com/formato24-os/.github/issues/new/choose)
 
 ## Current direction
 
-Formato24 is moving from a broad open-source community and monthly project cycle to sustained work on Cocosite. We no longer promise a new main project every month or describe every Formato24 product as open source. The organization remains at `formato24-os`; repository names do not determine a product's license.
+Formato24's public work is client software: websites, mobile apps and their servers. Cocosite, our homelab desktop application, has no public website or registration page since 2026-10-27; its [product notes](docs/COCOSITE.md) remain here as a record of its scope. The organization remains at `formato24-os`; repository names do not determine a product's license.
 
-Cocosite's current Windows alpha provides account and email-code flows, project onboarding, local plans, resource budgets, and real desktop hardware readings. Hosted AI, a dedicated server OS, and workload management have separate delivery gates. See the [product status](docs/COCOSITE.md) before assuming a capability is available.
-
-This repository publishes documentation, community policies, issue forms, and validation scripts. It does not distribute Cocosite source, application binaries, credentials, or an operational homelab service.
+This repository publishes documentation, community policies, issue forms, and validation scripts. It does not distribute client source, application binaries, credentials, or operational services.
 
 ## 📚 Repository guide
 

@@ -1,33 +1,27 @@
 # Formato24
 
-**Software, interfaces and infrastructure.**
+**Websites, iPhone and Android apps, and the infrastructure that runs them.**
 
-We build software products and the systems behind them. Our main product is **Cocosite**, a free desktop application for managing dedicated homelab computers with reviewed, AI-assisted changes.
+A small studio from Naples, working online across Italy. We design and write our software ourselves, from the interface to the server.
 
-[Website](https://www.formato24.com) · [Cocosite](https://cocosite.formato24.com) · [TikTok](https://www.tiktok.com/@formato24.com)
+[Website](https://www.formato24.com) · [News](https://www.formato24.com/notizie) · [TikTok](https://www.tiktok.com/@formato24.com)
 
-## 🖥️ Cocosite
+## 🛠️ What we build
 
-Connect your Windows desktop to dedicated Linux computers. Inspect resources, prepare container stacks and approve the exact changes before they run.
+- **Websites and web apps**, fast and accessible: WCAG 2.1 AA, GDPR-compliant consent, technical SEO.
+- **iPhone and Android apps** from one codebase, published on the App Store and Google Play.
+- **The server side**: APIs, databases, authentication, calendars, and email.
 
-The current development build includes verified accounts, local account-separated storage, project metadata synchronization, mutual TLS server pairing, Docker Compose operations, bounded host controls and a hosted AI integration. New management views cover engine resources and Swarm metadata.
+## 📱 Recent work
 
-**Status: beta qualification.** Public installer distribution remains closed while release checks are completed. A passing VM test does not establish compatibility with every physical computer.
-
-Cocosite is **proprietary and free to use**. Its source is private. Public documentation does not grant access to application source or redistribution rights.
-
-[Product scope and boundaries](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) · [Beta access](https://cocosite.formato24.com/beta)
+**An app for a nutrition practice.** Patients book from the slots that are actually free in the practice's Google Calendar, get reminders, and read the practice's news. The practice runs its schedule, hours, and news from the same app. [Practice website](https://uccnutri.formato24.com)
 
 ## 🧭 How we work
 
-- Build around concrete tasks and real system observations.
-- Keep workloads, volumes and operational secrets on the user's hardware.
-- Require validated plans and explicit approval for system changes.
-- Distinguish implemented features from qualified public releases.
-- Preserve the licenses and notices of third-party components.
+- One weekly update, on a real address you can open, not a slide deck.
+- Nothing invented: no stock screenshots, no made-up clients, no fake numbers.
+- Personal and health data stay where they belong, with consent before any tracking.
 
-## 🤝 Feedback
+## 🤝 Contact
 
-Share a use case or report a reproducible issue. Include the build version and affected step. Remove passwords, verification codes, tokens and private homelab information.
-
-[Feedback](https://github.com/formato24-os/.github/issues/new/choose) · [Support](https://github.com/formato24-os/.github/blob/main/SUPPORT.md) · [Security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) · [Contributing](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md)
+Questions about a project: write to `info@formato24.com` or use the [contact form](https://www.formato24.com/#contatti). Feedback on this profile: [open an issue](https://github.com/formato24-os/.github/issues/new/choose).
