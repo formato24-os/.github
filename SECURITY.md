@@ -1,23 +1,23 @@
-# Security policy
+# Politica di sicurezza
 
-Report suspected vulnerabilities privately. Do not include undisclosed vulnerabilities, account credentials, or private homelab details in public issues or pull requests.
+Segnala in privato le possibili vulnerabilità. Non inserire vulnerabilità non ancora rese pubbliche, credenziali o dettagli privati dell'homelab in segnalazioni o pull request pubbliche.
 
-## Private reporting
+## Segnalazione privata
 
-Use **Security → Report a vulnerability** in the affected repository when available. For concerns about Cocosite or matters without a suitable public source repository, use the [private reporting form in `.github`](https://github.com/formato24-os/.github/security/advisories/new). Private vulnerability reporting is enabled here; a GitHub account is required.
+Usa **Security → Report a vulnerability** nel repository interessato, quando è disponibile. Per Cocosite o per ciò che non ha un repository pubblico adatto usa il [modulo privato in `.github`](https://github.com/formato24-os/.github/security/advisories/new). La segnalazione privata è attiva qui; serve un account GitHub.
 
-Include the product, version or commit, affected component, prerequisites, likely impact, and a minimal safe reproduction. Redact passwords, verification codes, reset links, session cookies, tokens, database URLs, personal data, and private network addresses. Maintainers can request additional details through the private report thread.
+Indica prodotto, versione o commit, componente coinvolto, prerequisiti, impatto probabile e una riproduzione minima e sicura. Oscura password, codici di verifica, link di ripristino, cookie di sessione, token, indirizzi di database, dati personali e indirizzi di rete privati. I manutentori possono chiedere altri dettagli nel filo privato della segnalazione.
 
-## Relevant boundaries
+## Confini sensibili
 
-For Cocosite, account verification, session handling, workspace ownership, backend credentials, exports, and future device enrollment are security-sensitive boundaries. Local project storage currently belongs to the Windows profile and is shared by Cocosite accounts using that profile; online accounts do not provide local project isolation. See the [product overview](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) for current limitations.
+Per Cocosite sono confini sensibili: verifica dell'account, gestione delle sessioni, proprietà degli spazi di lavoro, credenziali del backend, esportazioni e la futura registrazione dei dispositivi. L'archivio locale dei progetti appartiene oggi al profilo Windows ed è condiviso dagli account Cocosite che usano quel profilo; gli account online non isolano i progetti locali. Vedi la [panoramica del prodotto](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md) per i limiti attuali.
 
-Only test systems and accounts you are authorized to assess. Do not access other people's data, scan unrelated networks, disrupt workloads, or erase disks to demonstrate a report. Product and repository identifiers are not credentials.
+Prova solo sistemi e account che sei autorizzato a valutare. Non accedere ai dati di altri, non scansionare reti estranee, non interrompere servizi e non cancellare dischi per dimostrare una segnalazione. Gli identificativi di prodotti e repository non sono credenziali.
 
-## Versions and coordination
+## Versioni e coordinamento
 
-This shared policy does not establish long-term support or guarantee a fix for every alpha or historical build. Include the exact affected version so maintainers can assess it. Proprietary licensing does not prevent a good-faith private report through this route.
+Questa politica comune non stabilisce un supporto a lungo termine né garantisce una correzione per ogni build alpha o storica. Indica la versione esatta, così i manutentori possono valutarla. La licenza proprietaria non impedisce una segnalazione privata in buona fede da questa via.
 
-Maintainers assess reports as availability permits. No guaranteed response time, bug bounty, or paid security service is established here. Coordinate disclosure before publishing details; advisories should describe affected versions, impact, and mitigations when appropriate. Reporter credit requires the reporter's consent.
+I manutentori valutano le segnalazioni secondo disponibilità. Qui non sono previsti tempi di risposta garantiti, ricompense o un servizio di sicurezza a pagamento. Coordina la divulgazione prima di pubblicare dettagli; gli avvisi, quando serve, descrivono versioni coinvolte, impatto e rimedi. Il credito a chi segnala richiede il suo consenso.
 
-Routine bugs, delivery problems, and usage questions belong in [Support](https://github.com/formato24-os/.github/blob/main/SUPPORT.md).
+Errori ordinari, problemi di consegna e domande sull'uso vanno nel [supporto](https://github.com/formato24-os/.github/blob/main/SUPPORT.md).

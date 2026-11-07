@@ -1,27 +1,35 @@
 # Formato24
 
-**Websites, iPhone and Android apps, and the infrastructure that runs them.**
+**Siti web, app per iPhone e Android, e l'infrastruttura che li fa funzionare.**
 
-A small studio from Naples, working online across Italy. We design and write our software ourselves, from the interface to the server.
+Un piccolo studio di Napoli che lavora online in tutta Italia. Progettiamo e scriviamo il nostro software da soli, dall'interfaccia al server.
 
-[Website](https://www.formato24.com) · [News](https://www.formato24.com/notizie) · [TikTok](https://www.tiktok.com/@formato24.com)
+[Sito](https://www.formato24.com) · [Notizie](https://www.formato24.com/notizie) · [TikTok](https://www.tiktok.com/@formato24.com) · [WhatsApp](https://wa.me/390810910353)
 
-## 🛠️ What we build
+## 🛠️ Cosa costruiamo
 
-- **Websites and web apps**, fast and accessible: WCAG 2.1 AA, GDPR-compliant consent, technical SEO.
-- **iPhone and Android apps** from one codebase, published on the App Store and Google Play.
-- **The server side**: APIs, databases, authentication, calendars, and email.
+- **Siti e web app** veloci e accessibili: WCAG 2.1 AA, consenso conforme al GDPR, SEO tecnica.
+- **App per iPhone e Android** da un'unica base di codice, pubblicate su App Store e Google Play.
+- **Il lato server**: API, database, autenticazione, calendari ed email.
 
-## 📱 Recent work
+## 📱 Lavori recenti
 
-**An app for a nutrition practice.** Patients book from the slots that are actually free in the practice's Google Calendar, get reminders, and read the practice's news. The practice runs its schedule, hours, and news from the same app. [Practice website](https://uccnutri.formato24.com)
+**Un'app per uno studio di nutrizione.** Le pazienti prenotano negli orari davvero liberi del Google Calendar dello studio, ricevono i promemoria e leggono le notizie dello studio. Lo studio gestisce agenda, orari e notizie dalla stessa app. [Sito della dottoressa](https://uccnutri.formato24.com)
 
-## 🧭 How we work
+## 🧭 Come lavoriamo
 
-- One weekly update, on a real address you can open, not a slide deck.
-- Nothing invented: no stock screenshots, no made-up clients, no fake numbers.
-- Personal and health data stay where they belong, with consent before any tracking.
+- Un aggiornamento a settimana, su un indirizzo vero che puoi aprire, non una presentazione.
+- Niente di inventato: niente schermate di repertorio, clienti immaginari o numeri finti.
+- I dati personali e sanitari restano dove devono stare, con il consenso prima di qualsiasi tracciamento.
 
-## 🤝 Contact
+## 🤝 Contatti
 
-Questions about a project: write to `info@formato24.com` or use the [contact form](https://www.formato24.com/#contatti). Feedback on this profile: [open an issue](https://github.com/formato24-os/.github/issues/new/choose).
+| | |
+| --- | --- |
+| ✉️ Email | `info@formato24.com` |
+| 📞 Telefono | `081 0910353` |
+| 💬 WhatsApp | [wa.me/390810910353](https://wa.me/390810910353) |
+| 🕘 Orari | Lun–Ven 10:30–18:30 · Sab 10:30–14:00 |
+| 📍 Dove | Napoli, lavoriamo online in tutta Italia |
+
+Per un progetto scrivici o usa il [modulo di contatto](https://www.formato24.com/#contatti). Per un commento su questo profilo [apri una segnalazione](https://github.com/formato24-os/.github/issues/new/choose).

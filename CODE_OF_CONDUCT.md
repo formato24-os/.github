@@ -1,33 +1,33 @@
-# Code of Conduct
+# Codice di condotta
 
-Formato24 welcomes people of all backgrounds, identities, abilities, locations, and experience levels. Everyone participating in our projects is expected to help create a respectful environment.
+Formato24 accoglie persone di ogni provenienza, identità, abilità, luogo e livello di esperienza. Chi partecipa ai nostri progetti contribuisce a creare un ambiente rispettoso.
 
-## Expected behavior
+## Comportamento atteso
 
-- Treat people with care and respect their boundaries.
-- Give specific, constructive feedback about ideas and work.
-- Make room for questions, different perspectives, and people learning in public.
-- Respect privacy, credit others' contributions, and acknowledge mistakes.
-- Follow reasonable moderation requests and the rules of the platform being used.
+- Tratta le persone con cura e rispetta i loro limiti.
+- Dai commenti specifici e costruttivi su idee e lavoro.
+- Lascia spazio alle domande, ai punti di vista diversi e a chi sta imparando in pubblico.
+- Rispetta la privacy, riconosci il contributo degli altri e ammetti i tuoi errori.
+- Segui le richieste ragionevoli di moderazione e le regole della piattaforma.
 
-Harassment, discrimination, threats, sexualized attention, personal attacks, sustained disruption, and publishing private information without consent are unacceptable. Retaliation against someone who reports a concern or assists a review is also unacceptable.
+Molestie, discriminazioni, minacce, attenzioni a sfondo sessuale, attacchi personali, disturbo continuato e pubblicazione di informazioni private senza consenso non sono accettati. Non è accettata nemmeno la ritorsione contro chi segnala un problema o aiuta a valutarlo.
 
-## Scope
+## Ambito
 
-This policy applies in organization repositories, issues, pull requests, and other spaces explicitly operated by Formato24. It also applies when someone represents the community in an official capacity. Participation does not by itself authorize someone to speak for the organization.
+Queste regole valgono nei repository dell'organizzazione, nelle segnalazioni, nelle pull request e negli altri spazi gestiti esplicitamente da Formato24. Valgono anche quando qualcuno rappresenta la community in veste ufficiale. Partecipare non autorizza di per sé a parlare a nome dell'organizzazione.
 
-## Reporting a concern
+## Segnalare un problema
 
-For harmful content on GitHub, use the content menu's **Report content** option. If **Report to repository admins** is available, it routes the concern to that repository's administrators. You can also use GitHub's **Report abuse** process for violations of GitHub's policies. See [GitHub's reporting instructions](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam).
+Per un contenuto dannoso su GitHub usa l'opzione **Report content** dal menu del contenuto. Se è disponibile **Report to repository admins**, la segnalazione arriva agli amministratori del repository. Puoi anche usare la procedura **Report abuse** di GitHub per le violazioni delle sue regole. Vedi le [istruzioni di GitHub per le segnalazioni](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam).
 
-A separate private community reporting address has not yet been designated. If direct reporting to repository admins is unavailable, use GitHub's reporting options for platform violations. For other moderation concerns, you may open a [community issue](https://github.com/formato24-os/.github/issues/new/choose) asking only for a private contact route. Do not include incident details, personal information, or the identities of affected people in a public issue. You are not required to report publicly or confront anyone involved.
+Non è ancora stato designato un indirizzo privato per le segnalazioni della community. Se la segnalazione diretta agli amministratori non è disponibile, usa le opzioni di GitHub per le violazioni della piattaforma. Per altre questioni di moderazione puoi aprire una [segnalazione della community](https://github.com/formato24-os/.github/issues/new/choose) chiedendo solo un contatto privato. Non inserire nella segnalazione pubblica dettagli dell'accaduto, dati personali o l'identità delle persone coinvolte. Non sei tenuto a segnalare in pubblico né a confrontarti con nessuno.
 
-GitHub Support handles reports made to GitHub under its own policies; those reports are separate from community moderation. Report software vulnerabilities through the [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md).
+Il supporto di GitHub gestisce le segnalazioni fatte a GitHub secondo le sue regole, separate dalla moderazione della community. Le vulnerabilità del software vanno segnalate con la [politica di sicurezza](https://github.com/formato24-os/.github/blob/main/SECURITY.md).
 
-## Enforcement and review
+## Applicazione e revisione
 
-Repository maintainers and organization owners may ask participants to stop a behavior, edit or remove content, restrict participation, or remove access. Responses should reflect the severity, context, and pattern of the behavior. Serious threats or harassment may justify immediate restrictions.
+Manutentori e proprietari possono chiedere di interrompere un comportamento, modificare o rimuovere contenuti, limitare la partecipazione o togliere l'accesso. La risposta tiene conto di gravità, contesto e ripetizione del comportamento. Minacce o molestie gravi possono giustificare limitazioni immediate.
 
-People involved in a concern should not decide its outcome. Where possible, an uninvolved maintainer or organization owner should review the available information. Sensitive information should be shared only with those needed to assess and address the concern; absolute confidentiality cannot be guaranteed on third-party platforms.
+Chi è coinvolto in un caso non ne decide l'esito. Quando possibile, le informazioni le valuta un manutentore o un proprietario non coinvolto. Le informazioni delicate si condividono solo con chi serve per valutare e risolvere; su piattaforme di terzi non si può garantire una riservatezza assoluta.
 
-A participant may request reconsideration through the available reporting route. An uninvolved owner or maintainer should review the request where possible; the availability of an independent reviewer depends on the size of the maintainer group.
+Chi partecipa può chiedere un riesame dalla via di segnalazione disponibile. Quando possibile lo valuta un proprietario o un manutentore non coinvolto; la disponibilità di un revisore indipendente dipende da quanto è grande il gruppo dei manutentori.

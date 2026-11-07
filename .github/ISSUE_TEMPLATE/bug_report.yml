@@ -1,54 +1,54 @@
-name: Bug report
-description: Report reproducible behavior that does not work as expected.
-title: "[Bug]: "
+name: Segnala un problema
+description: Segnala un comportamento riproducibile che non funziona come previsto.
+title: "[Problema]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Search existing issues before reporting a bug. Use the affected project's repository whenever possible.
-        Do not post secrets or undisclosed vulnerabilities. Follow our [security policy](https://github.com/formato24-os/.github/blob/main/SECURITY.md) for private reports.
-        For Cocosite, check the [alpha scope](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). Never post verification codes, tokens, account emails, or private homelab addresses.
+        Cerca tra le segnalazioni esistenti prima di aprirne una. Quando possibile usa il repository del progetto interessato.
+        Non pubblicare segreti o vulnerabilità non ancora pubbliche. Per le segnalazioni private segui la [politica di sicurezza](https://github.com/formato24-os/.github/blob/main/SECURITY.md).
+        Per Cocosite controlla il [perimetro dell'alpha](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). Non pubblicare mai codici di verifica, token, email dell'account o indirizzi privati dell'homelab.
   - type: input
     id: project
     attributes:
-      label: Affected project or repository
-      placeholder: Cocosite Desktop, organization profile, or another repository
+      label: Progetto o repository interessato
+      placeholder: Cocosite Desktop, profilo dell'organizzazione o un altro repository
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: What happened?
-      description: Describe the actual behavior and its impact.
+      label: Cosa è successo?
+      description: Descrivi il comportamento reale e il suo impatto.
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
-      description: Include a minimal example or the affected page or resource.
+      label: Passaggi per riprodurlo
+      description: Includi un esempio minimo o la pagina o risorsa interessata.
       placeholder: |
-        1. Start with...
-        2. Perform...
-        3. Observe...
+        1. Parti da...
+        2. Fai...
+        3. Osserva...
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-      description: What should happen instead?
+      label: Comportamento atteso
+      description: Cosa dovrebbe succedere invece?
     validations:
       required: true
   - type: textarea
     id: environment
     attributes:
-      label: Version and environment
-      description: Include the build version shown in the app, relevant OS and browser/runtime, or the documentation URL. State whether the issue affects sign-up, verification, sign-in, onboarding, or a project action.
+      label: Versione e ambiente
+      description: Indica la versione della build mostrata nell'app, sistema operativo e browser o ambiente, oppure l'indirizzo della documentazione. Specifica se il problema riguarda registrazione, verifica, accesso, primo avvio o un'azione su un progetto.
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Additional context
-      description: Add sanitized logs, screenshots, or related issues if useful. Remove credentials and private data.
+      label: Altre informazioni
+      description: Aggiungi log ripuliti, screenshot o segnalazioni collegate se utili. Togli credenziali e dati privati.

@@ -1,40 +1,40 @@
-name: Feature request
-description: Suggest an improvement to an existing project.
-title: "[Feature]: "
+name: Proponi una funzione
+description: Suggerisci un miglioramento a un progetto esistente.
+title: "[Funzione]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Search existing proposals first. Explain the problem before suggesting an implementation.
-        Cocosite is the current priority; there is no monthly project release commitment.
-        Distinguish a new capability from a bug in the [documented alpha scope](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md).
+        Cerca prima tra le proposte esistenti. Spiega il problema prima di suggerire una soluzione.
+        Non c'è un impegno di uscite mensili di nuovi progetti.
+        Distingui una funzione nuova da un problema nel [perimetro documentato dell'alpha](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md).
   - type: input
     id: project
     attributes:
-      label: Affected project or repository
+      label: Progetto o repository interessato
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: Problem and audience
-      description: What problem are you trying to solve, and who encounters it?
+      label: Problema e destinatari
+      description: Quale problema vuoi risolvere, e chi lo incontra?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed improvement
-      description: Describe the desired behavior and a concrete example.
+      label: Miglioramento proposto
+      description: Descrivi il comportamento desiderato con un esempio concreto.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      description: Include existing options or workarounds, if any.
+      label: Alternative considerate
+      description: Indica opzioni esistenti o modi per aggirare il problema, se ci sono.
   - type: textarea
     id: context
     attributes:
-      label: Scope and context
-      description: Note hardware or connectivity constraints, data/privacy implications, related issues, and any testing help you can offer. Omit private device and account details.
+      label: Perimetro e contesto
+      description: Indica vincoli di hardware o connessione, implicazioni su dati e privacy, segnalazioni collegate e se puoi aiutare a provare. Ometti dettagli privati di dispositivi e account.

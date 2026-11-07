@@ -1,22 +1,22 @@
 <!-- markdownlint-disable MD041 -->
-## Problem and outcome
+## Problema e risultato
 
-<!-- Explain the problem and what changes for users or contributors. -->
+<!-- Spiega il problema e cosa cambia per chi usa o contribuisce. -->
 
-## Related issues
+## Segnalazioni collegate
 
-<!-- Link relevant issues. Use "Closes #..." only when this change fully resolves an issue. -->
+<!-- Collega le segnalazioni interessate. Usa "Closes #..." solo se questa modifica le risolve del tutto. -->
 
-## Verification
+## Verifica
 
-<!-- Describe the checks you ran and their results. Explain limitations or checks that do not apply. Add screenshots when helpful. -->
+<!-- Descrivi i controlli fatti e i risultati. Spiega i limiti o i controlli che non si applicano. Aggiungi screenshot se servono. -->
 
-## Contributor checklist
+## Controlli di chi contribuisce
 
-- [ ] I have read the [contribution guide](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md).
-- [ ] This change has a focused scope, with relevant documentation and verification addressed above.
-- [ ] Status claims distinguish implemented, tested, planned, and publicly available features.
-- [ ] I have permission to publish these changes under the target repository's terms; no proprietary product source is included without authorization.
-- [ ] I have removed credentials, private data, and undisclosed vulnerability details.
+- [ ] Ho letto la [guida per contribuire](https://github.com/formato24-os/.github/blob/main/CONTRIBUTING.md) e il [codice di condotta](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md).
+- [ ] La modifica è mirata, con documentazione e verifica indicate sopra.
+- [ ] Le affermazioni sullo stato distinguono funzioni implementate, testate, pianificate e disponibili al pubblico.
+- [ ] Ho il permesso di pubblicare queste modifiche con i termini del repository; non c'è codice proprietario senza autorizzazione.
+- [ ] Ho tolto credenziali, dati privati e dettagli di vulnerabilità non ancora pubbliche.
 
-<!-- For vulnerabilities, use the private reporting route in SECURITY.md rather than a public pull request. -->
+<!-- Per le vulnerabilità usa la via privata in SECURITY.md, non una pull request pubblica. -->

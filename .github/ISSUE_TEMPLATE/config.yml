@@ -1,11 +1,14 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Support guidance
+  - name: Supporto
     url: https://github.com/formato24-os/.github/blob/main/SUPPORT.md
-    about: Read Cocosite alpha scope, account-reporting guidance, and support routes.
-  - name: Report a security vulnerability privately
+    about: Perimetro dell'alpha di Cocosite, come segnalare problemi di account e le vie di supporto.
+  - name: Segnala una vulnerabilità in privato
     url: https://github.com/formato24-os/.github/security/advisories/new
-    about: Use private reporting for vulnerabilities; never include them in a public issue.
-  - name: Code of Conduct and reporting
+    about: Usa la segnalazione privata per le vulnerabilità; non inserirle mai in una segnalazione pubblica.
+  - name: Codice di condotta e segnalazioni
     url: https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md
-    about: Read participation standards and the available reporting options.
+    about: Regole di partecipazione e opzioni di segnalazione disponibili.
+  - name: Scrivi a Formato24
+    url: https://wa.me/390810910353
+    about: Per un progetto o una domanda commerciale su WhatsApp, oppure info@formato24.com.

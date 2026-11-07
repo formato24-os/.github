@@ -1,53 +1,53 @@
-name: Project proposal
-description: Propose a focused initiative with a clear relation to Formato24's current direction.
-title: "[Project]: "
+name: Proposta di progetto
+description: Proponi un'iniziativa mirata, legata chiaramente alla direzione attuale di Formato24.
+title: "[Progetto]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Organization-wide proposals belong in [community issues](https://github.com/formato24-os/.github/issues).
-        Cocosite is the current product focus. There is no monthly project cycle.
-        A proposal does not create a repository, authorize source publication, or commit maintainers to a release date.
-        See our [governance model](https://github.com/formato24-os/.github/blob/main/GOVERNANCE.md) for the selection process.
+        Le proposte che riguardano tutta l'organizzazione vanno nelle [segnalazioni della community](https://github.com/formato24-os/.github/issues).
+        Non c'è un ciclo mensile di nuovi progetti.
+        Una proposta non crea un repository, non autorizza a pubblicare codice e non impegna i manutentori su una data di uscita.
+        Per come si scelgono le proposte vedi la [governance](https://github.com/formato24-os/.github/blob/main/GOVERNANCE.md).
   - type: textarea
     id: problem
     attributes:
-      label: Problem and intended users
-      description: Explain the need and who would benefit.
+      label: Problema e destinatari
+      description: Spiega il bisogno e chi ne trarrebbe vantaggio.
     validations:
       required: true
   - type: textarea
     id: outcome
     attributes:
-      label: Proposed outcome
-      description: Describe the smallest useful result and how someone would use it.
+      label: Risultato proposto
+      description: Descrivi il risultato utile più piccolo e come lo si userebbe.
     validations:
       required: true
   - type: textarea
     id: scope
     attributes:
-      label: Scope and relation to Cocosite
-      description: Explain how this supports the current product direction. List essential work, exclusions, dependencies, and how success could be verified.
+      label: Perimetro e legame con la direzione attuale
+      description: Spiega come sostiene la direzione attuale. Elenca il lavoro essenziale, cosa resta fuori, le dipendenze e come si verificherebbe il successo.
     validations:
       required: true
   - type: textarea
     id: licensing
     attributes:
-      label: Licensing and publication
-      description: Describe proposed reuse terms and third-party dependencies. Do not assume product source can be published or that all Formato24 projects use the same license.
+      label: Licenza e pubblicazione
+      description: Descrivi i termini di riuso proposti e le dipendenze di terze parti. Non dare per scontato che il codice si possa pubblicare o che tutti i progetti Formato24 abbiano la stessa licenza.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Existing alternatives
-      description: Link to relevant existing projects and explain what this proposal adds.
+      label: Alternative esistenti
+      description: Collega i progetti esistenti e spiega cosa aggiunge questa proposta.
     validations:
       required: true
   - type: textarea
     id: maintenance
     attributes:
-      label: Maintenance and participation
-      description: Describe likely ongoing work, needed skills, and whether you can help. A maintainer does not need to be appointed at proposal time.
+      label: Manutenzione e partecipazione
+      description: Descrivi il lavoro continuo probabile, le competenze necessarie e se puoi aiutare. Non serve nominare un manutentore al momento della proposta.
     validations:
       required: true

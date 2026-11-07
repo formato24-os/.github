@@ -1,27 +1,29 @@
-# Support
+# Supporto
 
-Use GitHub issues for public documentation questions and non-sensitive feedback. Cocosite is in private alpha development; this repository does not announce public downloads or a dedicated support service. Replies depend on maintainer availability, with no service-level agreement.
+Usa le segnalazioni di GitHub per domande pubbliche sulla documentazione e commenti non riservati. Cocosite è in sviluppo alpha privato: questo repository non annuncia download pubblici né un servizio di assistenza dedicato. I tempi di risposta dipendono dalla disponibilità dei manutentori, senza livelli di servizio garantiti.
 
-## Find the right route
+Per un progetto o una domanda commerciale scrivi a `info@formato24.com`, chiama lo `081 0910353` (Lun–Ven 10:30–18:30, Sab 10:30–14:00) o scrivici su [WhatsApp](https://wa.me/390810910353).
 
-| Request | Route |
+## Trova la strada giusta
+
+| Richiesta | Dove |
 | --- | --- |
-| Understand Cocosite's status | Read the [product overview](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). |
-| Report a test-build problem | Use [Bug report](https://github.com/formato24-os/.github/issues/new/choose); include the product and build version. |
-| Ask a question or suggest a feature | Use the issue chooser; state your goal and relevant constraints. |
-| Correct these documents | Open a documentation issue or pull request. |
-| Ask about another available repository | Follow that repository's own support instructions first. |
-| Report a vulnerability | Follow [Security](https://github.com/formato24-os/.github/blob/main/SECURITY.md) privately. |
-| Report harmful behavior | Follow the [Code of Conduct](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md). |
+| Capire lo stato di Cocosite | Leggi la [panoramica del prodotto](https://github.com/formato24-os/.github/blob/main/docs/COCOSITE.md). |
+| Segnalare un problema in una build di prova | Usa [Segnala un problema](https://github.com/formato24-os/.github/issues/new/choose) e indica prodotto e versione della build. |
+| Fare una domanda o proporre una funzione | Usa la scelta delle segnalazioni; spiega l'obiettivo e i vincoli. |
+| Correggere questi documenti | Apri una segnalazione sulla documentazione o una pull request. |
+| Chiedere di un altro repository | Segui prima le istruzioni di supporto di quel repository. |
+| Segnalare una vulnerabilità | Segui in privato la [politica di sicurezza](https://github.com/formato24-os/.github/blob/main/SECURITY.md). |
+| Segnalare un comportamento scorretto | Segui il [codice di condotta](https://github.com/formato24-os/.github/blob/main/CODE_OF_CONDUCT.md). |
 
-## Account and verification issues
+## Problemi di account e verifica
 
-Describe the failing step: account creation, email delivery, code entry, sign-in, or opening the workspace. Include the build version and the visible error text. Check the spam folder if a verification email is missing; use the app's resend action when available.
+Descrivi il passaggio che non funziona: creazione dell'account, arrivo dell'email, inserimento del codice, accesso o apertura dello spazio di lavoro. Indica la versione della build e il testo dell'errore. Se manca l'email di verifica controlla lo spam; usa il tasto per il nuovo invio quando c'è.
 
-Never post passwords, verification codes, reset links, tokens, cookies, account email addresses, or private homelab addresses. Maintainers do not need these secrets in a GitHub issue. A public issue is not an account-recovery channel; sensitive recovery needs a maintainer-provided private route. No dedicated recovery email address is announced here.
+Non pubblicare mai password, codici di verifica, link di ripristino, token, cookie, indirizzi email dell'account o indirizzi privati dell'homelab. I manutentori non hanno bisogno di questi segreti in una segnalazione pubblica, che non è un canale per recuperare l'account: per i casi riservati serve una via privata indicata da un manutentore. Qui non è annunciato un indirizzo email dedicato al recupero.
 
-## Useful reports
+## Segnalazioni utili
 
-Give reproducible steps and expected versus actual behavior. Attach only sanitized evidence and keep follow-up information in one issue. Distinguish readings from the desktop running Cocosite from estimates for a future server. The current alpha does not install an OS or deploy workloads, and hosted AI inference is not yet available.
+Indica i passaggi per riprodurre il problema e il comportamento atteso rispetto a quello reale. Allega solo prove ripulite da dati privati e tieni le informazioni successive nella stessa segnalazione. Distingui le misure prese sul computer dove gira Cocosite dalle stime per un server futuro. L'alpha attuale non installa un sistema operativo né distribuisce carichi di lavoro, e l'inferenza AI ospitata non è ancora disponibile.
 
-If you find a workaround, document it without exposing private details. Source access, feature requests, and support questions are separate decisions; none guarantees a delivery date.
+Se trovi un modo per aggirare il problema, descrivilo senza esporre dettagli privati. Accesso al codice, richieste di funzioni e domande di supporto sono decisioni separate; nessuna garantisce una data di consegna.
